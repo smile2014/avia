@@ -31,7 +31,7 @@ defmodule Snitch.Data.Schema.Variant do
     timestamps()
   end
 
-  @cast_fields ~w(sku weight height width depth selling_price shipping_category_id)a ++
+  @cast_fields ~w(sku weight height width depth selling_price shipping_category_id product_id)a ++
                  ~w(cost_price position track_inventory discontinue_on)a
   @required_fields ~w(sku cost_price selling_price)a
 

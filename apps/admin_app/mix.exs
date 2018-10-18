@@ -36,6 +36,7 @@ defmodule AdminApp.Mixfile do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      {:xml_builder, "~> 2.1", override: true},
       {:phoenix, "~> 1.3.0"},
       {:phoenix_pubsub, "~> 1.0"},
       {:phoenix_html, "~> 2.10"},
